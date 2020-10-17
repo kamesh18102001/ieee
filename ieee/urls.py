@@ -1,7 +1,7 @@
 from ieee import views
 from django.conf.urls import url
 urlpatterns=[
-    url('home-page',views.HomePage),
+    url('',views.HomePage),
     url('register-page/',views.RegisterPage),
     url('instruction-page/',views.InstructionPage),
     url('candidate-page/',views.CandidatePage),
